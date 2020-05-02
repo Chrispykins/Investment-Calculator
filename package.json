@@ -1,0 +1,19 @@
+{
+  "name": "investmentcalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-react": "^7.9.4"
+  },
+  "scripts": {
+    "start": "babel scripts/ --out-file app.js --presets=@babel/preset-react --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Gallegos",
+  "license": "ISC"
+}

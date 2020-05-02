@@ -1,0 +1,111 @@
+#header {
+	background-color: #38a;
+	padding: 20px
+}
+
+#header h1 {
+	color: #f9f9f9;
+	margin: 0px;
+	font-size: 40px;
+}
+
+#application {
+	margin: 10px
+
+}
+
+body {
+	padding: 0px;
+	margin:  0px;
+	background-color: #f9f9f9;
+}
+
+input {
+	text-align: right;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+}
+
+.inputs {
+	display: table;
+	padding: 5px;
+
+}
+
+.inputs input {
+	text-align: right;
+	width: 50%;
+}
+
+#showDetails {
+	text-decoration: underline;
+	color: #239;
+	margin: 10px;
+	cursor: pointer;
+	user-select: none;
+}
+
+#Result {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#Details {
+	display: table;
+	border-top:  2px solid black;
+	border-left: 1px solid black;
+}
+
+#Details input {
+	width: calc(100% - 20px);
+}
+
+#Details .header .cell {
+	border-right:  1.5px solid black;
+	border-bottom: 1.5px solid black;
+
+	font-weight: bold;
+	text-align: center;
+	padding: 7px;
+	background-color: #ccc;
+}
+
+#Details .header .age {
+	border-left: 1.5px solid black;;
+}
+
+#Details .cell {
+	border-right:  1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #ebebf0;
+
+	padding: 5px;
+	text-align: right;
+}
+
+#Details .age {
+	width: 100px;
+
+}
+
+#Details .investment {
+	width: 160px;
+}
+
+#Details .growth {
+	width: 150px;
+}
+
+#Details .total {
+	width: 150px;
+}
+
+#Details .last {
+	background-color: #e0ffe0
+}
